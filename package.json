@@ -1,0 +1,31 @@
+{
+  "name": "metodopost",
+  "version": "1.0.0",
+  "description": "Web App HTTP POST e validação dos dados do formulario",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DebLagos/metodopost.git"
+  },
+  "keywords": [
+    "HTTP",
+    "POST",
+    "validação"
+  ],
+  "author": "Debora Soares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DebLagos/metodopost/issues"
+  },
+  "homepage": "https://github.com/DebLagos/metodopost#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0"
+  }
+}
